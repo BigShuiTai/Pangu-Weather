@@ -14,6 +14,12 @@ Resources including pseudocode, pre-trained models, and inference code are relea
 
 The slides used in a series of recent talks are attached here. [Baidu Netdisk](https://pan.baidu.com/s/14ZGywcr4XAK5dk75-8PUqA?pwd=9sco), extraction code: 9sco
 
+## How to run on AMD GPUs?
+
+Use **OnnxRuntime-ROCm 1.17.0** version:
+
+`pip install onnxruntime-rocm -f https://repo.radeon.com/rocm/manylinux/rocm-rel-6.1.3/`
+
 ## News and Updates
 
 * [Jul 31 2023] We released the details of training the lite version of Pangu-Weather.
